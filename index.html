@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Bukayaw Getaneh | IT Self-Introdution</title>
+ <link rel="stylesheet" href=".css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: 95%;
+    }
+ body {
+      background-color: black;
+      color: red;
+      line-height: 1.5;
+      border-right: 20px solid blue;
+      border-left: 20px solid red;
+   border-top: 20px solid red;
+   border-bottom: 20px solid yellow;
+    }
+   .navbar {
+      background: yellow;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid red;
+    }
+    .logo {
+     font-size: 30px;
+       background-clip: text;
+      color: blue;
+    }
+.nav-links {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+    }
+ .nav-links a {
+      text-decoration: none;
+      color: green;
+      transition: color 0.2s ease;
+      font-size:16px;
+    }
+    .hero {
+      padding: 5px;
+    }
+.hero-badge {
+      background: red;
+      color: white;
+      display: inline-block;
+      padding: 5px ;
+      border-radius:30px;
+       }
+.hero-content h1 {
+       background-clip: text;
+   color: wheat;
+    }
+  .hero-highlight {
+      font-size: 20px;
+      color: blue;
+      background-color:red;
+    }
+ .hero-desc {
+      color: green;
+      max-width: 90%;
+      margin-bottom: 30px;
+      background-color: white;
+    }
+    .section-title {
+      background-color: gold;
+      margin-bottom: 30px;
+      position: relative;
+      display: inline-block;
+    }
+ .about-text p {
+      margin-bottom: 17px;
+      color: green;
+      background-color: yellow;
+    }
+    .projects-grid {
+      display: grid;
+      gap: 30px;
+      margin-top: 15px;
+    }
+    .project-card {
+      background: white;
+      border-radius: 28px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      border: 2px solid red;
+     }
+    .project-info {
+      padding: 25px;
+    }
+    .project-info h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .project-tags {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 0.8rem 0;
+    }
+    .project-tags span {
+      background: yellow;
+      padding: 0.2rem 0.8rem;
+      border-radius: 30px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: red;
+    }
+    .project-card p {
+      color: green;
+      font-size: 0.9rem;
+    }
+    footer {
+      background: blue;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 4rem;
+      font-size: 0.85rem;
+    }
+      .hero-content {
+        text-align: center;
+      }
+      .hero-desc {
+        max-width: 100%;
+      }
+      .hero-buttons {
+        justify-content: center;
+      }
+      .nav-container {
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+      .nav-links {
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .section-title:after {
+        width: 40%;
+      }
+      .contact {
+        background:red;
+        display:flex;
+        flex-direction: column;
+        padding: 5px ;
+      }
+.form-group input, .contact-box textarea { padding: 12px 15px; border: 10px solid green; 
+border-radius: 5px:
+}
+      .hero-content h1 {
+        font-size:40px;
+      }
+    table{
+      border-bottom: 10px solid green;
+      border-top: 10px solid red;
+      border-right: 10px solid yellow;
+      border-left: 10px solid blue;
+      background-color: blueviolet;
+      color: white;
+         }
+  </style>
+</head>
+<body>
+<nav class="navbar">
+  <div class="logo">Bukayaw.</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<main>
+  <section id="home" class="hero">
+      <div class="hero-content">
+        <span class="hero-badge"><i class="fas fa-graduation-cap"></i> 2nd Year IT Student</span>
+        <h1>Bukayaw Getaneh</h1>
+        <div class="hero-highlight">Building tomorrow's digital solutions</div>
+        <p class="hero-desc">I am Bukayaw Getaneh, a 2nd year Information Technology student at Mizan Tepi University. I am driven by a passion for questions and problem-solving, and I am interested in creating clean and responsive web page designs.</p>
+        <div class="hero">
+          <a href="#projects" class="btn">Explore Work</a>
+          <a href="#contact" class="btn btn-outline">Let's Connect</a>
+        </div>
+      </div>
+  </section>
+  <section id="about"class="container" style="margin: 2rem auto 3rem;">
+    <div class="about-card">
+      <h2 class="section-title">About Me</h2>
+     <input type="image" src="bb.jpg" alt=""height=150 width="100">
+      <div class="about-text">
+        <p>Hello! I'm <strong>Bukayaw Getaneh</strong>, a second-year Information Technology student at <strong>Mizan Tepi University</strong> From the moment I wrote my first line of HTML, I realized that technology is a key tool for empowering communities. My main focus is creating user-centered web experiences and building scalable digital solutions. </p>
+        <p>Currently, I am practicing front-end development (HTML, CSS) and studying back-end concepts. I believe in clean code, continuous learning, and empathetic design.</p>
+         </div>
+    </div>
+  </section>
+  <section id="projects">
+    <h2 class="section-title">Built Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-info">
+          <h3>Self-introduction</h3>
+          <div class="project-tags"><span>HTML</span><span>CSS</span></div>
+          <p>"This is because this project helps me introduce myself to any person or community.in this project to work used html and css"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  "<section id="contact" class="contact">
+     <div class="contact-box">
+       <h4>Have you any questions?</h4>
+       <p>Let's turn your idea into a reality.</p>
+       <form>
+         <div class="form-group">
+           <input type="text" placeholder="Your Name" required>
+           <input type="email" placeholder="Your Email" required>
+         </div>
+         <textarea rows=" " placeholder="Tell me about your idea..."></textarea>
+         <button type="submit" class="btn btn-primary">Send Message</button>
+       </form>
+     </div>
+ </section>
+</main>
+  <footer>
+    <input type="image" src="bb.jpg" alt=""height="150" width="100">
+  <div class="container">
+    <p>© 2025 Bukayaw Getaneh — Second-year IT, Mizan Tepi University. using pure HTML & CSS.</p>
+  </div>
+</footer>
+<table border="1" cellspacing="0">
+  <ul>
+    <tr>
+    <th>id</th>
+    <th>dept</th>
+    <th>section</th>
+    <th>submission date</th>
+    </tr>
+    <tr>
+      <td>7869/17</td>
+      <td>IT</td>
+      <td>A</td>
+      <td>12/08/2018E.C.</td>
+    </tr>
+  </ul>
+  </table>
+</body>
+</html>
